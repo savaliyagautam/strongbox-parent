@@ -519,7 +519,12 @@
                 <artifactId>orientdb-jdbc</artifactId>
                 <version>${version.orientdb}</version>
             </dependency>
-
+            <dependency>
+              <groupId>com.orientechnologies</groupId>
+              <artifactId>orientdb-gremlin</artifactId>
+              <version>${version.orientdb}</version>
+            </dependency>
+            
             <dependency>
                 <groupId>org.webjars</groupId>
                 <artifactId>orientdb-studio</artifactId>
